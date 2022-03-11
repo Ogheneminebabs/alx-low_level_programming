@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 
 /**
  *main - Main function of my program
