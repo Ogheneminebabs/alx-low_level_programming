@@ -1,13 +1,15 @@
 #include <stdio.h>
-int main(void)
+
 /**
  *main - Main function for my project
  *
  *
- *Return: return 0 everytime
+ *Return: always 0 (success)
  */
 
+int main(void)
+
 {
-fwrite(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 61);
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 61);
 return (1);
 }
