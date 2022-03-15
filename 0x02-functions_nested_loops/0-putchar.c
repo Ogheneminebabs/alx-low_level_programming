@@ -9,9 +9,9 @@
  *Return: on success 1
  * On error, -1 is returned, and errno is set appropriately
  */
-char main(void)
+int main(void)
 {
 char ch = _putchar;
-putchar(ch);
+putchar("ch\n");
 return (0);
 }
