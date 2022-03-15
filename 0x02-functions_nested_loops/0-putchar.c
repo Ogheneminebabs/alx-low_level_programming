@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio>
 
 /**
  *_putchar - writes the character putchar to stdout
