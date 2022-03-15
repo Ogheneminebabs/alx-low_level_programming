@@ -9,7 +9,9 @@
  * On error, -1 is returned, and errno is set appropriately
  */
 
-int _putchar(_putchar)
+int main(void)
 {
-return (write(1, &putchar, 1));
+char ch = '_putchar';
+putchar(ch);
+return (0);
 }
