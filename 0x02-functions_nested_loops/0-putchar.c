@@ -9,7 +9,7 @@
  *Return: on success 1
  * On error, -1 is returned, and errno is set appropriately
  */
-int putchar(int ch)
+int putchar(void)
 {
 char ch = _putchar;
 putchar("ch\n");
