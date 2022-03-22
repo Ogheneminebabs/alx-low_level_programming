@@ -10,9 +10,9 @@ int i;
 
 for (i = 0; str[i] != '\0'; i++)
 {
-_puts(str[i]);
+putchar(str[i]);
 }
 
-_puts('\n');
+putchar('\n');
 
 }
